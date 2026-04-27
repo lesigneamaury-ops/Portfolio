@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaury Lesigne — Développeur Web Full Stack</title>
+    <meta
+      name="description"
+      content="Portfolio d'Amaury Lesigne, développeur web full stack junior."
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/LogoALRGBshortcut.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ====================================================
+         NAVIGATION
+    ==================================================== -->
+      <nav>
+        <a href="#" class="nav-logo-link">
+          <img
+            src="assets/LogoALRGB.png"
+            alt="Amaury Lesigne"
+            class="nav-logo"
+          />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#projets">projets</a></li>
+          <li><a href="#stack">stack</a></li>
+          <li><a href="#a-propos">à propos</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- ====================================================
+         HERO
+    ==================================================== -->
+      <section class="hero">
+        <div class="hero-tag">disponible pour alternance / CDI junior</div>
+        <h1>
+          Bonjour, je suis<br />
+          <span class="gradient-text">Amaury</span>
+        </h1>
+        <p class="hero-sub">
+          Développeur web full stack junior, passionné par la création
+          d'interfaces modernes et d'APIs robustes. À la recherche de nouvelles
+          opportunités pour continuer à progresser.
+        </p>
+        <a class="btn-cta" href="#contact">Me contacter →</a>
+      </section>
+
+      <!-- ====================================================
+         STACK TECHNIQUE 
+    ==================================================== -->
+      <section class="stack-section" id="stack">
+        <div class="section-label">// stack technique</div>
+        <div class="chips">
+          <span class="chip highlight">HTML / CSS</span>
+          <span class="chip highlight">JavaScript</span>
+          <span class="chip highlight">React</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">Git / GitHub</span>
+          <span class="chip">REST API</span>
+        </div>
+      </section>
+
+      <!-- ====================================================
+         PROJETS 
+    ==================================================== -->
+      <section class="projects-section" id="projets">
+        <div class="section-header">
+          <h2 class="section-title">Projets</h2>
+        </div>
+
+        <div class="project-grid">
+          <!-- ── PROJET 1 ──  -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-num">01</span>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/lesigneamaury-ops/IronAim"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  class="project-link"
+                  href="https://lesigneamaury-ops.github.io/IronAim/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live ↗</a
+                >
+              </div>
+            </div>
+            <h3 class="project-name">IronAim</h3>
+            <p class="project-desc">
+              Premier projet réalisé durant ma formation, il s'agit d'un jeu
+              codé en JavaScript, HTML et CSS. Le but du jeu est de tirer sur
+              des cibles qui apparaissent aléatoirement à l'écran. Le joueur
+              doit cliquer sur les cibles pour marquer des points. Plusieurs
+              niveaux de difficulté sont disponibles avec une augmentation
+              progressive de la vitesse de rafraîchissement des cibles.
+            </p>
+            <div class="project-tags">
+              <span class="tag tag-green">HTML</span>
+              <span class="tag tag-blue">JavaScript</span>
+              <span class="tag tag-purple">CSS</span>
+            </div>
+          </article>
+
+          <!-- ── PROJET 2 ── -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-num">02</span>
+              <div class="project-links">
+                <a
+                  class="project-link"
+                  href="https://github.com/lesigneamaury-ops/IronVault-FrontEnd/tree/master"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub Frontend</a
+                >
+                <a
+                  class="project-link"
+                  href="https://github.com/lesigneamaury-ops/IronVault-BackEnd"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub Backend</a
+                >
+                <a
+                  class="project-link"
+                  href="https://ironvault-project.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live ↗</a
+                >
+              </div>
+            </div>
+            <h3 class="project-name">[IronVault]</h3>
+            <p class="project-desc">
+              3e projet réalisé durant ma formation, il s'agit d'une application
+              permettant de stocker les créations visuelles (AI générated
+              images) crées pendant la formation. Il est possible de créer,
+              éditer, commenter, réagir et supprimer les créations.
+              L'application est codée avec React pour le frontend et Express
+              pour le backend, avec mongodb pour la base de données. Le projet à
+              été réaliser seul et m'a permis de mettre en pratique mes
+              compétences en développement full stack, notamment la gestion de
+              l'état avec React et la création d'API REST avec Express. Le
+              projet à été déployer via Render pour le backend et Netlify pour
+              le frontend.
+            </p>
+            <div class="project-tags">
+              <span class="tag tag-amber">JavaScript</span>
+              <span class="tag tag-green">CSS</span>
+              <span class="tag tag-blue">API REST</span>
+            </div>
+          </article>
+
+          <!-- ── PROJET 3 ── -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-num">03</span>
+              <div class="project-links">
+                <a class="project-link" href="#" target="_blank" rel="noopener"
+                  >GitHub</a
+                >
+                <a class="project-link" href="#" target="_blank" rel="noopener"
+                  >Live ↗</a
+                >
+              </div>
+            </div>
+            <h3 class="project-name">[Nom du projet 3]</h3>
+            <p class="project-desc">
+              [Décrivez votre troisième projet ici : contexte de formation, rôle
+              dans le projet, technologies utilisées.]
+            </p>
+            <div class="project-tags">
+              <span class="tag tag-purple">SQL</span>
+              <span class="tag tag-green">Express</span>
+              <span class="tag tag-amber">React</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====================================================
+         À PROPOS 
+    ==================================================== -->
+      <section class="about-section" id="a-propos">
+        <div class="section-label">// à propos</div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-card-title">Formation</div>
+            <p class="about-card-text">
+              Développeur Web Full Stack · Ironhack · 2025<br /><br />
+              Formation intensive full stack avec projets en équipe et solo.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-title">Ce que je recherche</div>
+            <p class="about-card-text">
+              Alternance / CDI junior. Ouvert à toute opportunité pour
+              progresser en équipe et acquérir de nouvelles compétences.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================
+         CONTACT
+    ==================================================== -->
+      <section class="contact-section" id="contact">
+        <div class="section-label">// contact</div>
+        <h2 class="contact-heading">Travaillons ensemble.</h2>
+        <p class="contact-sub">
+          N'hésitez pas à me contacter pour toute opportunité.
+        </p>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:lesigne.amaury@gmail.com"
+            >✉ lesigne.amaury@gmail.com</a
+          >
+          <a
+            class="contact-link"
+            href="https://github.com/lesigneamaury-ops"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a
+            class="contact-link"
+            href="https://www.linkedin.com/in/amaury-lesigne-872302105/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </div>
+    <!-- /container -->
+  </body>
+</html>
